@@ -7,32 +7,25 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "Tic-Tac-Toe Game",
-    description: "Project 1 description",
-    image: "/images/projects/1.jpg",
-
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Socialseed",
+    description: "A Modern Social Media Platform Build from Scratch , with new AI Integration ,currently under construction.",
+    image: "/images/projects/1.png",
+    gitUrl: "https://github.com/Kuntal-Gain/Socialseed/",
   },
   {
     id: 2,
-    title: "Quote Generator",
-    description: "Project 2 description",
-    image: "/images/projects/2.jpg",
-
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Startup-Investor Network",
+    description: "A Simple App for making connection between startup owners and Investors.",
+    image: "/images/projects/2.png",
+    gitUrl: "https://github.com/Kuntal-Gain/Invester-Startup-Demo",
   },
   {
     id: 3,
     title: "Weatherify",
-    description: "Project 3 description",
+    description: "A Weather Forcast Application with weather condition and user alerts",
     image: "/images/projects/3.jpg",
-
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-
+    gitUrl: "https://github.com/Kuntal-Gain/Weatherify"
+  }
 ];
 
 const ProjectsSection = () => {
@@ -72,7 +65,7 @@ const ProjectsSection = () => {
               description={project.description}
               imgUrl={project.image}
               gitUrl={project.gitUrl}
-              previewUrl={project.previewUrl}
+
             />
           </motion.li>
         ))}
