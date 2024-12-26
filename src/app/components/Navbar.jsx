@@ -16,8 +16,12 @@ const navLinks = [
   },
   {
     title: "Contact",
-    path: "#contact",
+    path: "#contact"
   },
+  {
+    title: "Downloads",
+    path: "/downloads"  // Add this new route
+  }
 ];
 
 const Navbar = () => {
